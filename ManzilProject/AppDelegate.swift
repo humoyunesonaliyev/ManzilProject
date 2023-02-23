@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  ManzilProject
-//
-//  Created by Humoyun Esonaliyev on 23/02/23.
-//
 
 import UIKit
 
