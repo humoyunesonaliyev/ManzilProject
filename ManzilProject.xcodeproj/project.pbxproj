@@ -12,6 +12,7 @@
 		0CC351EE29A7B0C4000F96CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351EC29A7B0C4000F96CF /* LaunchScreen.storyboard */; };
 		0CC351F729A7BBC2000F96CF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC351F529A7BBC2000F96CF /* LoginVC.swift */; };
 		0CC351F829A7BBC2000F96CF /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351F629A7BBC2000F96CF /* LoginVC.xib */; };
+		FF4E1FAF793B4B46F2B2F104 /* Pods_ManzilProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		0CC351EF29A7B0C4000F96CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CC351F529A7BBC2000F96CF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0CC351F629A7BBC2000F96CF /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManzilProject.debug.xcconfig"; path = "Target Support Files/Pods-ManzilProject/Pods-ManzilProject.debug.xcconfig"; sourceTree = "<group>"; };
+		96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManzilProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B8228D6FDD722DD68B9608 /* Pods-ManzilProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManzilProject.release.xcconfig"; path = "Target Support Files/Pods-ManzilProject/Pods-ManzilProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4E1FAF793B4B46F2B2F104 /* Pods_ManzilProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				0CC351E029A7B0BF000F96CF /* ManzilProject */,
 				0CC351DF29A7B0BF000F96CF /* Products */,
+				D227E0F571515C1FF38133F8 /* Pods */,
+				D0C4AC7FC19C87855B10FD10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,24 @@
 			path = ManzilProject;
 			sourceTree = "<group>";
 		};
+		D0C4AC7FC19C87855B10FD10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D227E0F571515C1FF38133F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */,
+				C6B8228D6FDD722DD68B9608 /* Pods-ManzilProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CC351F229A7B0C4000F96CF /* Build configuration list for PBXNativeTarget "ManzilProject" */;
 			buildPhases = (
+				C269B8B9C6832854B4B4AEB4 /* [CP] Check Pods Manifest.lock */,
 				0CC351DA29A7B0BF000F96CF /* Sources */,
 				0CC351DB29A7B0BF000F96CF /* Frameworks */,
 				0CC351DC29A7B0BF000F96CF /* Resources */,
+				6CCCF4D06566572D550009E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CCCF4D06566572D550009E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManzilProject/Pods-ManzilProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManzilProject/Pods-ManzilProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManzilProject/Pods-ManzilProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C269B8B9C6832854B4B4AEB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManzilProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0CC351DA29A7B0BF000F96CF /* Sources */ = {
@@ -270,6 +339,7 @@
 		};
 		0CC351F329A7B0C4000F96CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,6 +368,7 @@
 		};
 		0CC351F429A7B0C4000F96CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B8228D6FDD722DD68B9608 /* Pods-ManzilProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
