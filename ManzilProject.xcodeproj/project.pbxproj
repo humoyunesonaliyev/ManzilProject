@@ -12,6 +12,35 @@
 		0CC351EE29A7B0C4000F96CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351EC29A7B0C4000F96CF /* LaunchScreen.storyboard */; };
 		0CC351F729A7BBC2000F96CF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC351F529A7BBC2000F96CF /* LoginVC.swift */; };
 		0CC351F829A7BBC2000F96CF /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351F629A7BBC2000F96CF /* LoginVC.xib */; };
+		B94BF1AC29ACFB6100903221 /* VehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1AA29ACFB6100903221 /* VehicleVC.swift */; };
+		B94BF1AD29ACFB6100903221 /* VehicleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BF1AB29ACFB6100903221 /* VehicleVC.xib */; };
+		B94BF1B029ACFD6000903221 /* VehicleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1AE29ACFD6000903221 /* VehicleTVC.swift */; };
+		B94BF1B129ACFD6000903221 /* VehicleTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BF1AF29ACFD6000903221 /* VehicleTVC.xib */; };
+		B94BF1B429AD0BC000903221 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1B229AD0BC000903221 /* InfoVC.swift */; };
+		B94BF1B529AD0BC000903221 /* InfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BF1B329AD0BC000903221 /* InfoVC.xib */; };
+		B9F35F9029A8756E005F72ED /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F35F8E29A8756E005F72ED /* FirstVC.swift */; };
+		B9F35F9129A8756E005F72ED /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F8F29A8756E005F72ED /* FirstVC.xib */; };
+		B9F35F9329A87827005F72ED /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F35F9229A87827005F72ED /* Classes.swift */; };
+		B9F35F9F29A91B42005F72ED /* sf-ui-display-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9729A91B41005F72ED /* sf-ui-display-thin.otf */; };
+		B9F35FA029A91B42005F72ED /* sf-ui-display-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9829A91B42005F72ED /* sf-ui-display-bold.otf */; };
+		B9F35FA129A91B42005F72ED /* sf-ui-display-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9929A91B42005F72ED /* sf-ui-display-light.otf */; };
+		B9F35FA229A91B42005F72ED /* sf-ui-display-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9A29A91B42005F72ED /* sf-ui-display-semibold.otf */; };
+		B9F35FA329A91B42005F72ED /* sf-ui-display-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9B29A91B42005F72ED /* sf-ui-display-black.otf */; };
+		B9F35FA429A91B42005F72ED /* sf-ui-display-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9C29A91B42005F72ED /* sf-ui-display-medium.otf */; };
+		B9F35FA529A91B42005F72ED /* sf-ui-display-ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9D29A91B42005F72ED /* sf-ui-display-ultralight.otf */; };
+		B9F35FA629A91B42005F72ED /* sf-ui-display-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35F9E29A91B42005F72ED /* sf-ui-display-heavy.otf */; };
+		B9F35FAA29A93684005F72ED /* DestinationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F35FA829A93684005F72ED /* DestinationTVC.swift */; };
+		B9F35FAB29A93684005F72ED /* DestinationTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F35FA929A93684005F72ED /* DestinationTVC.xib */; };
+		B9F35FAE29A93FE9005F72ED /* ManzilDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F35FAD29A93FE9005F72ED /* ManzilDM.swift */; };
+		B9F35FB129A94468005F72ED /* SelectDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F35FAF29A94468005F72ED /* SelectDestinationVC.swift */; };
+		B9F35FB229A94468005F72ED /* SelectDestinationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F35FB029A94468005F72ED /* SelectDestinationVC.xib */; };
+		B9F35FB429A947F3005F72ED /* sf-ui-display-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9F35FB329A947BF005F72ED /* sf-ui-display-regular.otf */; };
+		B9FF4BE829AE436200EA7EEC /* InfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF4BE629AE436200EA7EEC /* InfoTVC.swift */; };
+		B9FF4BE929AE436200EA7EEC /* InfoTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FF4BE729AE436200EA7EEC /* InfoTVC.xib */; };
+		B9FF4BEC29AE438700EA7EEC /* InfoCarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF4BEA29AE438700EA7EEC /* InfoCarTVC.swift */; };
+		B9FF4BED29AE438700EA7EEC /* InfoCarTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FF4BEB29AE438700EA7EEC /* InfoCarTVC.xib */; };
+		B9FF4BF029AE439D00EA7EEC /* InfoSeatsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF4BEE29AE439D00EA7EEC /* InfoSeatsTVC.swift */; };
+		B9FF4BF129AE439D00EA7EEC /* InfoSeatsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FF4BEF29AE439D00EA7EEC /* InfoSeatsTVC.xib */; };
 		FF4E1FAF793B4B46F2B2F104 /* Pods_ManzilProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +54,35 @@
 		0CC351F629A7BBC2000F96CF /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManzilProject.debug.xcconfig"; path = "Target Support Files/Pods-ManzilProject/Pods-ManzilProject.debug.xcconfig"; sourceTree = "<group>"; };
 		96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManzilProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94BF1AA29ACFB6100903221 /* VehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleVC.swift; sourceTree = "<group>"; };
+		B94BF1AB29ACFB6100903221 /* VehicleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleVC.xib; sourceTree = "<group>"; };
+		B94BF1AE29ACFD6000903221 /* VehicleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTVC.swift; sourceTree = "<group>"; };
+		B94BF1AF29ACFD6000903221 /* VehicleTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleTVC.xib; sourceTree = "<group>"; };
+		B94BF1B229AD0BC000903221 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		B94BF1B329AD0BC000903221 /* InfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoVC.xib; sourceTree = "<group>"; };
+		B9F35F8E29A8756E005F72ED /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		B9F35F8F29A8756E005F72ED /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		B9F35F9229A87827005F72ED /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		B9F35F9729A91B41005F72ED /* sf-ui-display-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-thin.otf"; sourceTree = "<group>"; };
+		B9F35F9829A91B42005F72ED /* sf-ui-display-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-bold.otf"; sourceTree = "<group>"; };
+		B9F35F9929A91B42005F72ED /* sf-ui-display-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-light.otf"; sourceTree = "<group>"; };
+		B9F35F9A29A91B42005F72ED /* sf-ui-display-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-semibold.otf"; sourceTree = "<group>"; };
+		B9F35F9B29A91B42005F72ED /* sf-ui-display-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-black.otf"; sourceTree = "<group>"; };
+		B9F35F9C29A91B42005F72ED /* sf-ui-display-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-medium.otf"; sourceTree = "<group>"; };
+		B9F35F9D29A91B42005F72ED /* sf-ui-display-ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-ultralight.otf"; sourceTree = "<group>"; };
+		B9F35F9E29A91B42005F72ED /* sf-ui-display-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-heavy.otf"; sourceTree = "<group>"; };
+		B9F35FA829A93684005F72ED /* DestinationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationTVC.swift; sourceTree = "<group>"; };
+		B9F35FA929A93684005F72ED /* DestinationTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationTVC.xib; sourceTree = "<group>"; };
+		B9F35FAD29A93FE9005F72ED /* ManzilDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManzilDM.swift; sourceTree = "<group>"; };
+		B9F35FAF29A94468005F72ED /* SelectDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDestinationVC.swift; sourceTree = "<group>"; };
+		B9F35FB029A94468005F72ED /* SelectDestinationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectDestinationVC.xib; sourceTree = "<group>"; };
+		B9F35FB329A947BF005F72ED /* sf-ui-display-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-regular.otf"; sourceTree = "<group>"; };
+		B9FF4BE629AE436200EA7EEC /* InfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTVC.swift; sourceTree = "<group>"; };
+		B9FF4BE729AE436200EA7EEC /* InfoTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTVC.xib; sourceTree = "<group>"; };
+		B9FF4BEA29AE438700EA7EEC /* InfoCarTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCarTVC.swift; sourceTree = "<group>"; };
+		B9FF4BEB29AE438700EA7EEC /* InfoCarTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCarTVC.xib; sourceTree = "<group>"; };
+		B9FF4BEE29AE439D00EA7EEC /* InfoSeatsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSeatsTVC.swift; sourceTree = "<group>"; };
+		B9FF4BEF29AE439D00EA7EEC /* InfoSeatsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoSeatsTVC.xib; sourceTree = "<group>"; };
 		C6B8228D6FDD722DD68B9608 /* Pods-ManzilProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManzilProject.release.xcconfig"; path = "Target Support Files/Pods-ManzilProject/Pods-ManzilProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,14 +119,123 @@
 		0CC351E029A7B0BF000F96CF /* ManzilProject */ = {
 			isa = PBXGroup;
 			children = (
+				B9F35F9629A91B26005F72ED /* Fonts */,
 				0CC351E129A7B0BF000F96CF /* AppDelegate.swift */,
 				0CC351F529A7BBC2000F96CF /* LoginVC.swift */,
 				0CC351F629A7BBC2000F96CF /* LoginVC.xib */,
+				B9F35F8D29A874E2005F72ED /* Islom */,
 				0CC351EA29A7B0C4000F96CF /* Assets.xcassets */,
 				0CC351EC29A7B0C4000F96CF /* LaunchScreen.storyboard */,
 				0CC351EF29A7B0C4000F96CF /* Info.plist */,
 			);
 			path = ManzilProject;
+			sourceTree = "<group>";
+		};
+		B94BF1B629AE257200903221 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B94BF1B829AE259B00903221 /* VC */,
+				B9F35FA729A93651005F72ED /* TVC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B94BF1B729AE257800903221 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B94BF1BA29AE25AC00903221 /* VC */,
+				B94BF1BB29AE25B200903221 /* TVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B94BF1B829AE259B00903221 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35F8F29A8756E005F72ED /* FirstVC.xib */,
+				B9F35FB029A94468005F72ED /* SelectDestinationVC.xib */,
+				B94BF1AB29ACFB6100903221 /* VehicleVC.xib */,
+				B94BF1B329AD0BC000903221 /* InfoVC.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B94BF1BA29AE25AC00903221 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35F8E29A8756E005F72ED /* FirstVC.swift */,
+				B9F35FAF29A94468005F72ED /* SelectDestinationVC.swift */,
+				B94BF1AA29ACFB6100903221 /* VehicleVC.swift */,
+				B94BF1B229AD0BC000903221 /* InfoVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B94BF1BB29AE25B200903221 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35FA829A93684005F72ED /* DestinationTVC.swift */,
+				B94BF1AE29ACFD6000903221 /* VehicleTVC.swift */,
+				B9FF4BE629AE436200EA7EEC /* InfoTVC.swift */,
+				B9FF4BEA29AE438700EA7EEC /* InfoCarTVC.swift */,
+				B9FF4BEE29AE439D00EA7EEC /* InfoSeatsTVC.swift */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		B9F35F8D29A874E2005F72ED /* Islom */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35FAC29A93FC4005F72ED /* Model */,
+				B94BF1B629AE257200903221 /* View */,
+				B94BF1B729AE257800903221 /* Controller */,
+				B9FF4BE529AE267000EA7EEC /* Helpers */,
+			);
+			path = Islom;
+			sourceTree = "<group>";
+		};
+		B9F35F9629A91B26005F72ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35F9B29A91B42005F72ED /* sf-ui-display-black.otf */,
+				B9F35F9829A91B42005F72ED /* sf-ui-display-bold.otf */,
+				B9F35F9E29A91B42005F72ED /* sf-ui-display-heavy.otf */,
+				B9F35F9929A91B42005F72ED /* sf-ui-display-light.otf */,
+				B9F35F9C29A91B42005F72ED /* sf-ui-display-medium.otf */,
+				B9F35F9A29A91B42005F72ED /* sf-ui-display-semibold.otf */,
+				B9F35F9729A91B41005F72ED /* sf-ui-display-thin.otf */,
+				B9F35F9D29A91B42005F72ED /* sf-ui-display-ultralight.otf */,
+				B9F35FB329A947BF005F72ED /* sf-ui-display-regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B9F35FA729A93651005F72ED /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				B94BF1AF29ACFD6000903221 /* VehicleTVC.xib */,
+				B9F35FA929A93684005F72ED /* DestinationTVC.xib */,
+				B9FF4BE729AE436200EA7EEC /* InfoTVC.xib */,
+				B9FF4BEB29AE438700EA7EEC /* InfoCarTVC.xib */,
+				B9FF4BEF29AE439D00EA7EEC /* InfoSeatsTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		B9F35FAC29A93FC4005F72ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35FAD29A93FE9005F72ED /* ManzilDM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9FF4BE529AE267000EA7EEC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9F35F9229A87827005F72ED /* Classes.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D0C4AC7FC19C87855B10FD10 /* Frameworks */ = {
@@ -85,7 +252,6 @@
 				51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */,
 				C6B8228D6FDD722DD68B9608 /* Pods-ManzilProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +316,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CC351F829A7BBC2000F96CF /* LoginVC.xib in Resources */,
+				B9F35FA629A91B42005F72ED /* sf-ui-display-heavy.otf in Resources */,
+				B94BF1B129ACFD6000903221 /* VehicleTVC.xib in Resources */,
+				B9F35F9F29A91B42005F72ED /* sf-ui-display-thin.otf in Resources */,
+				B9F35FA529A91B42005F72ED /* sf-ui-display-ultralight.otf in Resources */,
+				B9F35FA429A91B42005F72ED /* sf-ui-display-medium.otf in Resources */,
+				B9F35FB229A94468005F72ED /* SelectDestinationVC.xib in Resources */,
+				B9F35FA129A91B42005F72ED /* sf-ui-display-light.otf in Resources */,
+				B9FF4BE929AE436200EA7EEC /* InfoTVC.xib in Resources */,
+				B94BF1AD29ACFB6100903221 /* VehicleVC.xib in Resources */,
+				B9F35FA229A91B42005F72ED /* sf-ui-display-semibold.otf in Resources */,
+				B9F35FB429A947F3005F72ED /* sf-ui-display-regular.otf in Resources */,
+				B9F35FAB29A93684005F72ED /* DestinationTVC.xib in Resources */,
+				B94BF1B529AD0BC000903221 /* InfoVC.xib in Resources */,
+				B9FF4BF129AE439D00EA7EEC /* InfoSeatsTVC.xib in Resources */,
+				B9FF4BED29AE438700EA7EEC /* InfoCarTVC.xib in Resources */,
+				B9F35FA029A91B42005F72ED /* sf-ui-display-bold.otf in Resources */,
+				B9F35FA329A91B42005F72ED /* sf-ui-display-black.otf in Resources */,
+				B9F35F9129A8756E005F72ED /* FirstVC.xib in Resources */,
 				0CC351EE29A7B0C4000F96CF /* LaunchScreen.storyboard in Resources */,
 				0CC351EB29A7B0C4000F96CF /* Assets.xcassets in Resources */,
 			);
@@ -204,8 +388,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F35FB129A94468005F72ED /* SelectDestinationVC.swift in Sources */,
 				0CC351F729A7BBC2000F96CF /* LoginVC.swift in Sources */,
+				B9F35FAA29A93684005F72ED /* DestinationTVC.swift in Sources */,
+				B94BF1AC29ACFB6100903221 /* VehicleVC.swift in Sources */,
+				B94BF1B429AD0BC000903221 /* InfoVC.swift in Sources */,
+				B9FF4BE829AE436200EA7EEC /* InfoTVC.swift in Sources */,
+				B9FF4BEC29AE438700EA7EEC /* InfoCarTVC.swift in Sources */,
+				B9FF4BF029AE439D00EA7EEC /* InfoSeatsTVC.swift in Sources */,
+				B9F35F9029A8756E005F72ED /* FirstVC.swift in Sources */,
+				B9F35FAE29A93FE9005F72ED /* ManzilDM.swift in Sources */,
+				B9F35F9329A87827005F72ED /* Classes.swift in Sources */,
 				0CC351E229A7B0BF000F96CF /* AppDelegate.swift in Sources */,
+				B94BF1B029ACFD6000903221 /* VehicleTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
