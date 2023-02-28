@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C59E1CF29AE5A16004BFA80 /* CreatPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1C229AE5A16004BFA80 /* CreatPasswordVC.xib */; };
+		0C59E1D029AE5A16004BFA80 /* ConfirmationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1C329AE5A16004BFA80 /* ConfirmationVC.xib */; };
+		0C59E1D129AE5A16004BFA80 /* RegistrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1C429AE5A16004BFA80 /* RegistrationVC.xib */; };
+		0C59E1D229AE5A16004BFA80 /* ForgetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1C529AE5A16004BFA80 /* ForgetPasswordVC.xib */; };
+		0C59E1D329AE5A16004BFA80 /* ChooseRoleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1C629AE5A16004BFA80 /* ChooseRoleVC.xib */; };
+		0C59E1D429AE5A16004BFA80 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1C729AE5A16004BFA80 /* LoginVC.xib */; };
+		0C59E1D529AE5A16004BFA80 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1C929AE5A16004BFA80 /* ForgetPasswordVC.swift */; };
+		0C59E1D629AE5A16004BFA80 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1CA29AE5A16004BFA80 /* RegistrationVC.swift */; };
+		0C59E1D729AE5A16004BFA80 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1CB29AE5A16004BFA80 /* LoginVC.swift */; };
+		0C59E1D829AE5A16004BFA80 /* ChooseRoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1CC29AE5A16004BFA80 /* ChooseRoleVC.swift */; };
+		0C59E1D929AE5A16004BFA80 /* ConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1CD29AE5A16004BFA80 /* ConfirmationVC.swift */; };
+		0C59E1DA29AE5A16004BFA80 /* CreatPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1CE29AE5A16004BFA80 /* CreatPasswordVC.swift */; };
+		0C59E1E929AE5A49004BFA80 /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1DD29AE5A49004BFA80 /* BookingVC.swift */; };
+		0C59E1EA29AE5A49004BFA80 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1DE29AE5A49004BFA80 /* SettingsVC.swift */; };
+		0C59E1EB29AE5A49004BFA80 /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1DF29AE5A49004BFA80 /* ProfilVC.swift */; };
+		0C59E1EC29AE5A49004BFA80 /* ChangeProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1E029AE5A49004BFA80 /* ChangeProfilVC.swift */; };
+		0C59E1ED29AE5A49004BFA80 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1E129AE5A49004BFA80 /* images.xcassets */; };
+		0C59E1EE29AE5A49004BFA80 /* ChangeProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1E329AE5A49004BFA80 /* ChangeProfilVC.xib */; };
+		0C59E1EF29AE5A49004BFA80 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1E429AE5A49004BFA80 /* SettingsVC.xib */; };
+		0C59E1F029AE5A49004BFA80 /* BookingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1E529AE5A49004BFA80 /* BookingVC.xib */; };
+		0C59E1F129AE5A49004BFA80 /* ProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C59E1E629AE5A49004BFA80 /* ProfilVC.xib */; };
+		0C59E1F229AE5A49004BFA80 /* IconTitleIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59E1E829AE5A49004BFA80 /* IconTitleIconButton.swift */; };
 		0CC351E229A7B0BF000F96CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC351E129A7B0BF000F96CF /* AppDelegate.swift */; };
 		0CC351EB29A7B0C4000F96CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351EA29A7B0C4000F96CF /* Assets.xcassets */; };
 		0CC351EE29A7B0C4000F96CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351EC29A7B0C4000F96CF /* LaunchScreen.storyboard */; };
-		0CC351F729A7BBC2000F96CF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC351F529A7BBC2000F96CF /* LoginVC.swift */; };
-		0CC351F829A7BBC2000F96CF /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351F629A7BBC2000F96CF /* LoginVC.xib */; };
-		2D894DD329AE571E0001BD87 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D894DCF29AE571E0001BD87 /* SettingsVC.xib */; };
-		2D894DD429AE571E0001BD87 /* ProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D894DD029AE571E0001BD87 /* ProfilVC.xib */; };
-		2D894DD529AE571E0001BD87 /* ChangeProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D894DD129AE571E0001BD87 /* ChangeProfilVC.xib */; };
-		2D894DD629AE571E0001BD87 /* BookingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D894DD229AE571E0001BD87 /* BookingVC.xib */; };
-		2D894DDB29AE572A0001BD87 /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D894DD729AE572A0001BD87 /* ProfilVC.swift */; };
-		2D894DDC29AE572A0001BD87 /* ChangeProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D894DD829AE572A0001BD87 /* ChangeProfilVC.swift */; };
-		2D894DDD29AE572A0001BD87 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D894DD929AE572A0001BD87 /* SettingsVC.swift */; };
-		2D894DDE29AE572A0001BD87 /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D894DDA29AE572A0001BD87 /* BookingVC.swift */; };
 		B94BF1AC29ACFB6100903221 /* VehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1AA29ACFB6100903221 /* VehicleVC.swift */; };
 		B94BF1AD29ACFB6100903221 /* VehicleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BF1AB29ACFB6100903221 /* VehicleVC.xib */; };
 		B94BF1B029ACFD6000903221 /* VehicleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1AE29ACFD6000903221 /* VehicleTVC.swift */; };
@@ -53,21 +65,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C59E1C229AE5A16004BFA80 /* CreatPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatPasswordVC.xib; sourceTree = "<group>"; };
+		0C59E1C329AE5A16004BFA80 /* ConfirmationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmationVC.xib; sourceTree = "<group>"; };
+		0C59E1C429AE5A16004BFA80 /* RegistrationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationVC.xib; sourceTree = "<group>"; };
+		0C59E1C529AE5A16004BFA80 /* ForgetPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPasswordVC.xib; sourceTree = "<group>"; };
+		0C59E1C629AE5A16004BFA80 /* ChooseRoleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseRoleVC.xib; sourceTree = "<group>"; };
+		0C59E1C729AE5A16004BFA80 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		0C59E1C929AE5A16004BFA80 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		0C59E1CA29AE5A16004BFA80 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		0C59E1CB29AE5A16004BFA80 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0C59E1CC29AE5A16004BFA80 /* ChooseRoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseRoleVC.swift; sourceTree = "<group>"; };
+		0C59E1CD29AE5A16004BFA80 /* ConfirmationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationVC.swift; sourceTree = "<group>"; };
+		0C59E1CE29AE5A16004BFA80 /* CreatPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatPasswordVC.swift; sourceTree = "<group>"; };
+		0C59E1DD29AE5A49004BFA80 /* BookingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
+		0C59E1DE29AE5A49004BFA80 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		0C59E1DF29AE5A49004BFA80 /* ProfilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
+		0C59E1E029AE5A49004BFA80 /* ChangeProfilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeProfilVC.swift; sourceTree = "<group>"; };
+		0C59E1E129AE5A49004BFA80 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		0C59E1E329AE5A49004BFA80 /* ChangeProfilVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeProfilVC.xib; sourceTree = "<group>"; };
+		0C59E1E429AE5A49004BFA80 /* SettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		0C59E1E529AE5A49004BFA80 /* BookingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingVC.xib; sourceTree = "<group>"; };
+		0C59E1E629AE5A49004BFA80 /* ProfilVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilVC.xib; sourceTree = "<group>"; };
+		0C59E1E829AE5A49004BFA80 /* IconTitleIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTitleIconButton.swift; sourceTree = "<group>"; };
 		0CC351DE29A7B0BF000F96CF /* ManzilProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManzilProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC351E129A7B0BF000F96CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CC351EA29A7B0C4000F96CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC351ED29A7B0C4000F96CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC351EF29A7B0C4000F96CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CC351F529A7BBC2000F96CF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		0CC351F629A7BBC2000F96CF /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
-		2D894DCF29AE571E0001BD87 /* SettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
-		2D894DD029AE571E0001BD87 /* ProfilVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilVC.xib; sourceTree = "<group>"; };
-		2D894DD129AE571E0001BD87 /* ChangeProfilVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeProfilVC.xib; sourceTree = "<group>"; };
-		2D894DD229AE571E0001BD87 /* BookingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingVC.xib; sourceTree = "<group>"; };
-		2D894DD729AE572A0001BD87 /* ProfilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
-		2D894DD829AE572A0001BD87 /* ChangeProfilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeProfilVC.swift; sourceTree = "<group>"; };
-		2D894DD929AE572A0001BD87 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
-		2D894DDA29AE572A0001BD87 /* BookingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
 		51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManzilProject.debug.xcconfig"; path = "Target Support Files/Pods-ManzilProject/Pods-ManzilProject.debug.xcconfig"; sourceTree = "<group>"; };
 		96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManzilProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BF1AA29ACFB6100903221 /* VehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleVC.swift; sourceTree = "<group>"; };
@@ -114,6 +138,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C59E1C029AE5A16004BFA80 /* Sarvar */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1C129AE5A16004BFA80 /* Vews */,
+				0C59E1C829AE5A16004BFA80 /* Controllers */,
+			);
+			path = Sarvar;
+			sourceTree = "<group>";
+		};
+		0C59E1C129AE5A16004BFA80 /* Vews */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1C229AE5A16004BFA80 /* CreatPasswordVC.xib */,
+				0C59E1C329AE5A16004BFA80 /* ConfirmationVC.xib */,
+				0C59E1C429AE5A16004BFA80 /* RegistrationVC.xib */,
+				0C59E1C529AE5A16004BFA80 /* ForgetPasswordVC.xib */,
+				0C59E1C629AE5A16004BFA80 /* ChooseRoleVC.xib */,
+				0C59E1C729AE5A16004BFA80 /* LoginVC.xib */,
+			);
+			path = Vews;
+			sourceTree = "<group>";
+		};
+		0C59E1C829AE5A16004BFA80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1C929AE5A16004BFA80 /* ForgetPasswordVC.swift */,
+				0C59E1CA29AE5A16004BFA80 /* RegistrationVC.swift */,
+				0C59E1CB29AE5A16004BFA80 /* LoginVC.swift */,
+				0C59E1CC29AE5A16004BFA80 /* ChooseRoleVC.swift */,
+				0C59E1CD29AE5A16004BFA80 /* ConfirmationVC.swift */,
+				0C59E1CE29AE5A16004BFA80 /* CreatPasswordVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C59E1DB29AE5A49004BFA80 /* O'lmasbek */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1DC29AE5A49004BFA80 /* Controller */,
+				0C59E1E129AE5A49004BFA80 /* images.xcassets */,
+				0C59E1E229AE5A49004BFA80 /* View */,
+				0C59E1E729AE5A49004BFA80 /* HelperComponents */,
+			);
+			path = "O'lmasbek";
+			sourceTree = "<group>";
+		};
+		0C59E1DC29AE5A49004BFA80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1DD29AE5A49004BFA80 /* BookingVC.swift */,
+				0C59E1DE29AE5A49004BFA80 /* SettingsVC.swift */,
+				0C59E1DF29AE5A49004BFA80 /* ProfilVC.swift */,
+				0C59E1E029AE5A49004BFA80 /* ChangeProfilVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C59E1E229AE5A49004BFA80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1E329AE5A49004BFA80 /* ChangeProfilVC.xib */,
+				0C59E1E429AE5A49004BFA80 /* SettingsVC.xib */,
+				0C59E1E529AE5A49004BFA80 /* BookingVC.xib */,
+				0C59E1E629AE5A49004BFA80 /* ProfilVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C59E1E729AE5A49004BFA80 /* HelperComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0C59E1E829AE5A49004BFA80 /* IconTitleIconButton.swift */,
+			);
+			path = HelperComponents;
+			sourceTree = "<group>";
+		};
 		0CC351D529A7B0BF000F96CF = {
 			isa = PBXGroup;
 			children = (
@@ -135,18 +235,10 @@
 		0CC351E029A7B0BF000F96CF /* ManzilProject */ = {
 			isa = PBXGroup;
 			children = (
-				2D894DDA29AE572A0001BD87 /* BookingVC.swift */,
-				2D894DD829AE572A0001BD87 /* ChangeProfilVC.swift */,
-				2D894DD729AE572A0001BD87 /* ProfilVC.swift */,
-				2D894DD929AE572A0001BD87 /* SettingsVC.swift */,
-				2D894DD229AE571E0001BD87 /* BookingVC.xib */,
-				2D894DD129AE571E0001BD87 /* ChangeProfilVC.xib */,
-				2D894DD029AE571E0001BD87 /* ProfilVC.xib */,
-				2D894DCF29AE571E0001BD87 /* SettingsVC.xib */,
 				B9F35F9629A91B26005F72ED /* Fonts */,
 				0CC351E129A7B0BF000F96CF /* AppDelegate.swift */,
-				0CC351F529A7BBC2000F96CF /* LoginVC.swift */,
-				0CC351F629A7BBC2000F96CF /* LoginVC.xib */,
+				0C59E1DB29AE5A49004BFA80 /* O'lmasbek */,
+				0C59E1C029AE5A16004BFA80 /* Sarvar */,
 				B9F35F8D29A874E2005F72ED /* Islom */,
 				0CC351EA29A7B0C4000F96CF /* Assets.xcassets */,
 				0CC351EC29A7B0C4000F96CF /* LaunchScreen.storyboard */,
@@ -339,30 +431,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC351F829A7BBC2000F96CF /* LoginVC.xib in Resources */,
+				0C59E1EF29AE5A49004BFA80 /* SettingsVC.xib in Resources */,
 				B9F35FA629A91B42005F72ED /* sf-ui-display-heavy.otf in Resources */,
+				0C59E1F129AE5A49004BFA80 /* ProfilVC.xib in Resources */,
 				B94BF1B129ACFD6000903221 /* VehicleTVC.xib in Resources */,
 				B9F35F9F29A91B42005F72ED /* sf-ui-display-thin.otf in Resources */,
-				2D894DD429AE571E0001BD87 /* ProfilVC.xib in Resources */,
+				0C59E1D229AE5A16004BFA80 /* ForgetPasswordVC.xib in Resources */,
 				B9F35FA529A91B42005F72ED /* sf-ui-display-ultralight.otf in Resources */,
 				B9F35FA429A91B42005F72ED /* sf-ui-display-medium.otf in Resources */,
+				0C59E1D329AE5A16004BFA80 /* ChooseRoleVC.xib in Resources */,
 				B9F35FB229A94468005F72ED /* SelectDestinationVC.xib in Resources */,
+				0C59E1D129AE5A16004BFA80 /* RegistrationVC.xib in Resources */,
 				B9F35FA129A91B42005F72ED /* sf-ui-display-light.otf in Resources */,
 				B9FF4BE929AE436200EA7EEC /* InfoTVC.xib in Resources */,
 				B94BF1AD29ACFB6100903221 /* VehicleVC.xib in Resources */,
+				0C59E1ED29AE5A49004BFA80 /* images.xcassets in Resources */,
 				B9F35FA229A91B42005F72ED /* sf-ui-display-semibold.otf in Resources */,
-				2D894DD629AE571E0001BD87 /* BookingVC.xib in Resources */,
+				0C59E1D029AE5A16004BFA80 /* ConfirmationVC.xib in Resources */,
+				0C59E1D429AE5A16004BFA80 /* LoginVC.xib in Resources */,
 				B9F35FB429A947F3005F72ED /* sf-ui-display-regular.otf in Resources */,
 				B9F35FAB29A93684005F72ED /* DestinationTVC.xib in Resources */,
 				B94BF1B529AD0BC000903221 /* InfoVC.xib in Resources */,
 				B9FF4BF129AE439D00EA7EEC /* InfoSeatsTVC.xib in Resources */,
-				2D894DD329AE571E0001BD87 /* SettingsVC.xib in Resources */,
+				0C59E1CF29AE5A16004BFA80 /* CreatPasswordVC.xib in Resources */,
+				0C59E1F029AE5A49004BFA80 /* BookingVC.xib in Resources */,
 				B9FF4BED29AE438700EA7EEC /* InfoCarTVC.xib in Resources */,
 				B9F35FA029A91B42005F72ED /* sf-ui-display-bold.otf in Resources */,
 				B9F35FA329A91B42005F72ED /* sf-ui-display-black.otf in Resources */,
 				B9F35F9129A8756E005F72ED /* FirstVC.xib in Resources */,
 				0CC351EE29A7B0C4000F96CF /* LaunchScreen.storyboard in Resources */,
-				2D894DD529AE571E0001BD87 /* ChangeProfilVC.xib in Resources */,
+				0C59E1EE29AE5A49004BFA80 /* ChangeProfilVC.xib in Resources */,
 				0CC351EB29A7B0C4000F96CF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,22 +514,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D894DDB29AE572A0001BD87 /* ProfilVC.swift in Sources */,
 				B9F35FB129A94468005F72ED /* SelectDestinationVC.swift in Sources */,
-				0CC351F729A7BBC2000F96CF /* LoginVC.swift in Sources */,
-				2D894DDE29AE572A0001BD87 /* BookingVC.swift in Sources */,
 				B9F35FAA29A93684005F72ED /* DestinationTVC.swift in Sources */,
 				B94BF1AC29ACFB6100903221 /* VehicleVC.swift in Sources */,
-				2D894DDD29AE572A0001BD87 /* SettingsVC.swift in Sources */,
 				B94BF1B429AD0BC000903221 /* InfoVC.swift in Sources */,
+				0C59E1EC29AE5A49004BFA80 /* ChangeProfilVC.swift in Sources */,
 				B9FF4BE829AE436200EA7EEC /* InfoTVC.swift in Sources */,
 				B9FF4BEC29AE438700EA7EEC /* InfoCarTVC.swift in Sources */,
 				B9FF4BF029AE439D00EA7EEC /* InfoSeatsTVC.swift in Sources */,
+				0C59E1EB29AE5A49004BFA80 /* ProfilVC.swift in Sources */,
+				0C59E1D829AE5A16004BFA80 /* ChooseRoleVC.swift in Sources */,
+				0C59E1D929AE5A16004BFA80 /* ConfirmationVC.swift in Sources */,
+				0C59E1EA29AE5A49004BFA80 /* SettingsVC.swift in Sources */,
 				B9F35F9029A8756E005F72ED /* FirstVC.swift in Sources */,
+				0C59E1F229AE5A49004BFA80 /* IconTitleIconButton.swift in Sources */,
 				B9F35FAE29A93FE9005F72ED /* ManzilDM.swift in Sources */,
-				2D894DDC29AE572A0001BD87 /* ChangeProfilVC.swift in Sources */,
+				0C59E1D729AE5A16004BFA80 /* LoginVC.swift in Sources */,
+				0C59E1DA29AE5A16004BFA80 /* CreatPasswordVC.swift in Sources */,
 				B9F35F9329A87827005F72ED /* Classes.swift in Sources */,
 				0CC351E229A7B0BF000F96CF /* AppDelegate.swift in Sources */,
+				0C59E1E929AE5A49004BFA80 /* BookingVC.swift in Sources */,
+				0C59E1D529AE5A16004BFA80 /* ForgetPasswordVC.swift in Sources */,
+				0C59E1D629AE5A16004BFA80 /* RegistrationVC.swift in Sources */,
 				B94BF1B029ACFD6000903221 /* VehicleTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
