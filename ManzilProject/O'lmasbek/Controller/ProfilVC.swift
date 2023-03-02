@@ -18,6 +18,20 @@ class ProfilVC: UIViewController {
     @IBOutlet weak var userPhone: UILabel!
     
     
+    @IBOutlet weak var changeProfilButton: UIButton!
+    
+    @IBOutlet weak var bookingButton: UIButton!
+    
+    @IBOutlet weak var settingsButton: UIButton!
+    
+    
+    @IBOutlet weak var driverButton: UIButton!
+    
+    
+    @IBOutlet weak var logOutButton: UIButton!
+    
+//VARIABLES
+    let font = SfUiDisplay()
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUiComponents()
@@ -25,6 +39,12 @@ class ProfilVC: UIViewController {
     }
     func setupUiComponents() {
         profilImage.layer.cornerRadius = profilImage.frame.height / 2
+        
+        //Change font family
+        userName.font = UIFont(name: font.bold, size: 20)
+        
+        userPhone.font = UIFont(name: font.regular, size: 19)
+        
     }
     
     @IBAction func changeProfilBtnTapped(_ sender: Any) {

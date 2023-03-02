@@ -25,13 +25,13 @@
                     <rect key="frame" x="16" y="93" width="361" height="691"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="cn5-Fk-2TU">
-                            <rect key="frame" x="70.666666666666686" y="0.0" width="220" height="270"/>
+                            <rect key="frame" x="75.666666666666686" y="0.0" width="210" height="270"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="pMl-f1-yon">
-                                    <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="210" height="200"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OYd-H4-8wZ">
-                                            <rect key="frame" x="66.999999999999986" y="0.0" width="86.000000000000014" height="86"/>
+                                            <rect key="frame" x="61.999999999999986" y="0.0" width="86.000000000000014" height="86"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="RDT-G3-CsU">
                                                     <rect key="frame" x="0.0" y="0.0" width="86" height="86"/>
@@ -42,19 +42,19 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="I8h-dq-hwl">
-                                            <rect key="frame" x="0.0" y="102" width="220" height="98"/>
+                                            <rect key="frame" x="0.0" y="102" width="210" height="98"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shamuratov O'lmasbek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZ2-9m-Zin">
-                                                    <rect key="frame" x="0.0" y="0.0" width="220" height="40"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="210" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="OhT-cF-p35"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+99 890 000 00 01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYJ-GC-0Af">
-                                                    <rect key="frame" x="39" y="40" width="141.66666666666666" height="58"/>
+                                                    <rect key="frame" x="34" y="40" width="141.66666666666666" height="58"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -64,7 +64,7 @@
                                     </subviews>
                                 </stackView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q82-OQ-ZW3">
-                                    <rect key="frame" x="26.333333333333329" y="224" width="167" height="46"/>
+                                    <rect key="frame" x="21.333333333333329" y="224" width="167" height="46"/>
                                     <color key="backgroundColor" red="0.15686274509803921" green="0.34509803921568627" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -160,13 +160,12 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="3el-Dk-nkF">
                                                     <rect key="frame" x="0.0" y="0.0" width="283" height="23"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="svv-Qb-dO3">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Setting" translatesAutoresizingMaskIntoConstraints="NO" id="svv-Qb-dO3">
                                                             <rect key="frame" x="0.0" y="0.0" width="20" height="23"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="20" id="EBh-Hd-yH6"/>
                                                                 <constraint firstAttribute="height" constant="23" id="rpd-om-05N"/>
                                                             </constraints>
-                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="16"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sozlamalar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ao-Kr-EF3">
                                                             <rect key="frame" x="34" y="0.0" width="249" height="23"/>
@@ -386,7 +385,7 @@
         </view>
     </objects>
     <resources>
-        <image name="Vector" width="512" height="488"/>
+        <image name="Setting" width="512" height="488"/>
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="locationIcon" width="512" height="626"/>
         <image name="logout" width="512" height="512"/>

@@ -32,6 +32,15 @@
 		0CC351E229A7B0BF000F96CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC351E129A7B0BF000F96CF /* AppDelegate.swift */; };
 		0CC351EB29A7B0C4000F96CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351EA29A7B0C4000F96CF /* Assets.xcassets */; };
 		0CC351EE29A7B0C4000F96CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC351EC29A7B0C4000F96CF /* LaunchScreen.storyboard */; };
+		2D20018929B0669600F94655 /* DirecionsInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D20018729B0669600F94655 /* DirecionsInfoVC.swift */; };
+		2D20018A29B0669600F94655 /* DirecionsInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20018829B0669600F94655 /* DirecionsInfoVC.xib */; };
+		2D4EC5C629AF4A78001FAF36 /* DIrectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4EC5C429AF4A78001FAF36 /* DIrectionsVC.swift */; };
+		2D4EC5C729AF4A78001FAF36 /* DIrectionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D4EC5C529AF4A78001FAF36 /* DIrectionsVC.xib */; };
+		2D4EC5C929AF5018001FAF36 /* FontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4EC5C829AF5018001FAF36 /* FontModel.swift */; };
+		2D5C206729B0AE4300FFCBC7 /* SeatsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C206529B0AE4300FFCBC7 /* SeatsTVC.swift */; };
+		2D5C206829B0AE4300FFCBC7 /* SeatsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C206629B0AE4300FFCBC7 /* SeatsTVC.xib */; };
+		2D5C206C29B0B63800FFCBC7 /* SeatCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C206A29B0B63800FFCBC7 /* SeatCVC.swift */; };
+		2D5C206D29B0B63800FFCBC7 /* SeatCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C206B29B0B63800FFCBC7 /* SeatCVC.xib */; };
 		B94BF1AC29ACFB6100903221 /* VehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1AA29ACFB6100903221 /* VehicleVC.swift */; };
 		B94BF1AD29ACFB6100903221 /* VehicleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BF1AB29ACFB6100903221 /* VehicleVC.xib */; };
 		B94BF1B029ACFD6000903221 /* VehicleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BF1AE29ACFD6000903221 /* VehicleTVC.swift */; };
@@ -92,6 +101,15 @@
 		0CC351EA29A7B0C4000F96CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC351ED29A7B0C4000F96CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC351EF29A7B0C4000F96CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D20018729B0669600F94655 /* DirecionsInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirecionsInfoVC.swift; sourceTree = "<group>"; };
+		2D20018829B0669600F94655 /* DirecionsInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirecionsInfoVC.xib; sourceTree = "<group>"; };
+		2D4EC5C429AF4A78001FAF36 /* DIrectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIrectionsVC.swift; sourceTree = "<group>"; };
+		2D4EC5C529AF4A78001FAF36 /* DIrectionsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIrectionsVC.xib; sourceTree = "<group>"; };
+		2D4EC5C829AF5018001FAF36 /* FontModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModel.swift; sourceTree = "<group>"; };
+		2D5C206529B0AE4300FFCBC7 /* SeatsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsTVC.swift; sourceTree = "<group>"; };
+		2D5C206629B0AE4300FFCBC7 /* SeatsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeatsTVC.xib; sourceTree = "<group>"; };
+		2D5C206A29B0B63800FFCBC7 /* SeatCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCVC.swift; sourceTree = "<group>"; };
+		2D5C206B29B0B63800FFCBC7 /* SeatCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeatCVC.xib; sourceTree = "<group>"; };
 		51D5F5180D27946373A80FA6 /* Pods-ManzilProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManzilProject.debug.xcconfig"; path = "Target Support Files/Pods-ManzilProject/Pods-ManzilProject.debug.xcconfig"; sourceTree = "<group>"; };
 		96CED81BD6F78A8E55B96965 /* Pods_ManzilProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManzilProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BF1AA29ACFB6100903221 /* VehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleVC.swift; sourceTree = "<group>"; };
@@ -176,10 +194,12 @@
 		0C59E1DB29AE5A49004BFA80 /* O'lmasbek */ = {
 			isa = PBXGroup;
 			children = (
-				0C59E1DC29AE5A49004BFA80 /* Controller */,
-				0C59E1E129AE5A49004BFA80 /* images.xcassets */,
+				2D4EC5C129AF46F0001FAF36 /* Driver */,
+				2D4EC5CB29AF523C001FAF36 /* Models */,
 				0C59E1E229AE5A49004BFA80 /* View */,
+				0C59E1DC29AE5A49004BFA80 /* Controller */,
 				0C59E1E729AE5A49004BFA80 /* HelperComponents */,
+				0C59E1E129AE5A49004BFA80 /* images.xcassets */,
 			);
 			path = "O'lmasbek";
 			sourceTree = "<group>";
@@ -187,10 +207,10 @@
 		0C59E1DC29AE5A49004BFA80 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0C59E1DD29AE5A49004BFA80 /* BookingVC.swift */,
-				0C59E1DE29AE5A49004BFA80 /* SettingsVC.swift */,
 				0C59E1DF29AE5A49004BFA80 /* ProfilVC.swift */,
 				0C59E1E029AE5A49004BFA80 /* ChangeProfilVC.swift */,
+				0C59E1DD29AE5A49004BFA80 /* BookingVC.swift */,
+				0C59E1DE29AE5A49004BFA80 /* SettingsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,10 +218,10 @@
 		0C59E1E229AE5A49004BFA80 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0C59E1E329AE5A49004BFA80 /* ChangeProfilVC.xib */,
-				0C59E1E429AE5A49004BFA80 /* SettingsVC.xib */,
-				0C59E1E529AE5A49004BFA80 /* BookingVC.xib */,
 				0C59E1E629AE5A49004BFA80 /* ProfilVC.xib */,
+				0C59E1E329AE5A49004BFA80 /* ChangeProfilVC.xib */,
+				0C59E1E529AE5A49004BFA80 /* BookingVC.xib */,
+				0C59E1E429AE5A49004BFA80 /* SettingsVC.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,6 +265,61 @@
 				0CC351EF29A7B0C4000F96CF /* Info.plist */,
 			);
 			path = ManzilProject;
+			sourceTree = "<group>";
+		};
+		2D4EC5C129AF46F0001FAF36 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				2D5C206029B0ADA200FFCBC7 /* TableViewCell */,
+				2D5C206929B0B5FC00FFCBC7 /* CollectionVIewCell */,
+				2D4EC5C329AF470A001FAF36 /* Controller */,
+				2D4EC5C229AF46F8001FAF36 /* View */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		2D4EC5C229AF46F8001FAF36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D4EC5C529AF4A78001FAF36 /* DIrectionsVC.xib */,
+				2D20018829B0669600F94655 /* DirecionsInfoVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D4EC5C329AF470A001FAF36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D4EC5C429AF4A78001FAF36 /* DIrectionsVC.swift */,
+				2D20018729B0669600F94655 /* DirecionsInfoVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D4EC5CB29AF523C001FAF36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D4EC5C829AF5018001FAF36 /* FontModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D5C206029B0ADA200FFCBC7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D5C206529B0AE4300FFCBC7 /* SeatsTVC.swift */,
+				2D5C206629B0AE4300FFCBC7 /* SeatsTVC.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		2D5C206929B0B5FC00FFCBC7 /* CollectionVIewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D5C206A29B0B63800FFCBC7 /* SeatCVC.swift */,
+				2D5C206B29B0B63800FFCBC7 /* SeatCVC.xib */,
+			);
+			path = CollectionVIewCell;
 			sourceTree = "<group>";
 		};
 		B94BF1B629AE257200903221 /* View */ = {
@@ -441,10 +516,14 @@
 				B9F35FA429A91B42005F72ED /* sf-ui-display-medium.otf in Resources */,
 				0C59E1D329AE5A16004BFA80 /* ChooseRoleVC.xib in Resources */,
 				B9F35FB229A94468005F72ED /* SelectDestinationVC.xib in Resources */,
+				2D5C206D29B0B63800FFCBC7 /* SeatCVC.xib in Resources */,
 				0C59E1D129AE5A16004BFA80 /* RegistrationVC.xib in Resources */,
 				B9F35FA129A91B42005F72ED /* sf-ui-display-light.otf in Resources */,
 				B9FF4BE929AE436200EA7EEC /* InfoTVC.xib in Resources */,
+				2D20018A29B0669600F94655 /* DirecionsInfoVC.xib in Resources */,
+				2D5C206829B0AE4300FFCBC7 /* SeatsTVC.xib in Resources */,
 				B94BF1AD29ACFB6100903221 /* VehicleVC.xib in Resources */,
+				2D4EC5C729AF4A78001FAF36 /* DIrectionsVC.xib in Resources */,
 				0C59E1ED29AE5A49004BFA80 /* images.xcassets in Resources */,
 				B9F35FA229A91B42005F72ED /* sf-ui-display-semibold.otf in Resources */,
 				0C59E1D029AE5A16004BFA80 /* ConfirmationVC.xib in Resources */,
@@ -514,6 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4EC5C929AF5018001FAF36 /* FontModel.swift in Sources */,
 				B9F35FB129A94468005F72ED /* SelectDestinationVC.swift in Sources */,
 				B9F35FAA29A93684005F72ED /* DestinationTVC.swift in Sources */,
 				B94BF1AC29ACFB6100903221 /* VehicleVC.swift in Sources */,
@@ -526,13 +606,17 @@
 				0C59E1D829AE5A16004BFA80 /* ChooseRoleVC.swift in Sources */,
 				0C59E1D929AE5A16004BFA80 /* ConfirmationVC.swift in Sources */,
 				0C59E1EA29AE5A49004BFA80 /* SettingsVC.swift in Sources */,
+				2D20018929B0669600F94655 /* DirecionsInfoVC.swift in Sources */,
 				B9F35F9029A8756E005F72ED /* FirstVC.swift in Sources */,
 				0C59E1F229AE5A49004BFA80 /* IconTitleIconButton.swift in Sources */,
 				B9F35FAE29A93FE9005F72ED /* ManzilDM.swift in Sources */,
 				0C59E1D729AE5A16004BFA80 /* LoginVC.swift in Sources */,
 				0C59E1DA29AE5A16004BFA80 /* CreatPasswordVC.swift in Sources */,
 				B9F35F9329A87827005F72ED /* Classes.swift in Sources */,
+				2D4EC5C629AF4A78001FAF36 /* DIrectionsVC.swift in Sources */,
+				2D5C206C29B0B63800FFCBC7 /* SeatCVC.swift in Sources */,
 				0CC351E229A7B0BF000F96CF /* AppDelegate.swift in Sources */,
+				2D5C206729B0AE4300FFCBC7 /* SeatsTVC.swift in Sources */,
 				0C59E1E929AE5A49004BFA80 /* BookingVC.swift in Sources */,
 				0C59E1D529AE5A16004BFA80 /* ForgetPasswordVC.swift in Sources */,
 				0C59E1D629AE5A16004BFA80 /* RegistrationVC.swift in Sources */,

@@ -57,7 +57,6 @@ class FirstVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupNavBar()
         setupViews()
         

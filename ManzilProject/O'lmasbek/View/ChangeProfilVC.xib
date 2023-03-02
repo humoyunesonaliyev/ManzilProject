@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="jLs-DG-TGg">
-                    <rect key="frame" x="16" y="95" width="361" height="402"/>
+                    <rect key="frame" x="16" y="94.999999999999972" width="361" height="401.33333333333326"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Os0-DA-2Kq">
                             <rect key="frame" x="0.0" y="0.0" width="361" height="86"/>
@@ -66,26 +66,26 @@
                             </userDefinedRuntimeAttributes>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="LNu-gs-hIN">
-                            <rect key="frame" x="0.0" y="134" width="361" height="268"/>
+                            <rect key="frame" x="0.0" y="133.99999999999997" width="361" height="267.33333333333326"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="r9X-aA-tjN">
-                                    <rect key="frame" x="0.0" y="0.0" width="361" height="73.333333333333329"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="72.666666666666671"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ismingiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceS-JM-AXx">
-                                            <rect key="frame" x="0.0" y="0.0" width="361" height="19.333333333333332"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="361" height="18.666666666666668"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                             <color key="textColor" red="0.19607843137254902" green="0.14117647058823529" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3eY-NZ-vZN">
-                                            <rect key="frame" x="0.0" y="27.333333333333314" width="361" height="46"/>
+                                            <rect key="frame" x="0.0" y="26.666666666666657" width="361" height="46"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9x2-CR-wOk">
-                                    <rect key="frame" x="0.0" y="97.333333333333314" width="361" height="73.333333333333314"/>
+                                    <rect key="frame" x="0.0" y="96.666666666666686" width="361" height="73.333333333333314"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Familyangiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muF-ay-cYe">
                                             <rect key="frame" x="0.0" y="0.0" width="361" height="19.333333333333332"/>
@@ -94,14 +94,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tLk-25-wFp">
-                                            <rect key="frame" x="0.0" y="27.333333333333371" width="361" height="46"/>
+                                            <rect key="frame" x="0.0" y="27.333333333333314" width="361" height="46"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="y1q-8e-bge">
-                                    <rect key="frame" x="0.0" y="194.66666666666669" width="361" height="73.333333333333314"/>
+                                    <rect key="frame" x="0.0" y="194" width="361" height="73.333333333333314"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon raqamingiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZP-T4-2Om">
                                             <rect key="frame" x="0.0" y="0.0" width="361" height="19.333333333333332"/>
