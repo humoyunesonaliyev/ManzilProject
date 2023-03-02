@@ -255,8 +255,8 @@
 		0CC351E029A7B0BF000F96CF /* ManzilProject */ = {
 			isa = PBXGroup;
 			children = (
-				B9F35F9629A91B26005F72ED /* Fonts */,
 				0CC351E129A7B0BF000F96CF /* AppDelegate.swift */,
+				B9F35F9629A91B26005F72ED /* Fonts */,
 				0C59E1DB29AE5A49004BFA80 /* O'lmasbek */,
 				0C59E1C029AE5A16004BFA80 /* Sarvar */,
 				B9F35F8D29A874E2005F72ED /* Islom */,
